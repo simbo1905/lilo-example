@@ -7,9 +7,9 @@ This repo was created by watching the following video: [Tame Your Spring Microse
 
 Launch the three projects in the following order:
 
-1. `cd server1 && mvn spring-boot:run`
-1. `cd server2 && mvn spring-boot:run`
-1. `cd router && mvn spring-boot:run`
+1. `cd server1 && mvn org.springframework.boot:spring-boot-maven-plugin:run`
+1. `cd server2 && mvn org.springframework.boot:spring-boot-maven-plugin:run`
+1. `cd router && mvn org.springframework.boot:spring-boot-maven-plugin:run`
 
 You can query the router with: 
 
